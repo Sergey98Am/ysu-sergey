@@ -1,0 +1,14 @@
+uuid: 98990673-958a-43ec-bc09-9371c8504bc0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - sergey.gabrielyan1998@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

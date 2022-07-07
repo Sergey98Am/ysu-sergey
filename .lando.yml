@@ -1,0 +1,28 @@
+name: ysu-sergey
+recipe: drupal9
+config:
+  webroot: ./web
+
+services:
+  phpmyadmin:
+    type: phpmyadmin
+    hosts:
+      - database
+  node:
+    type: node:14
+    build_as_root:
+      - apt-get update -y
+      - apt-get install ruby-full -y
+      - gem install compass
+
+tooling:
+  ruby:
+    service: node
+  compass:
+    service: node
+
+proxy:
+  appserver:
+    - "ysu-sergey.lndo.site/"
+  phpmyadmin:
+    - "phpmyadmin.ysu-sergey.lndo.site"
