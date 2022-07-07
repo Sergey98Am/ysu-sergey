@@ -1,0 +1,11 @@
+uuid: 83417d3c-3287-475d-b204-b455439a2bf6
+langcode: en
+status: true
+dependencies: {  }
+id: location
+label: Location
+description: 'A physical library branch location.'
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

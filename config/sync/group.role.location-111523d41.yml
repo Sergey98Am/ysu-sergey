@@ -1,0 +1,17 @@
+uuid: a4fd0fc4-e21e-499d-901f-f262007d3f73
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.location
+  enforced:
+    config:
+      - user.role.content_editor
+id: location-111523d41
+label: 'Content editor'
+weight: 2
+internal: true
+audience: outsider
+group_type: location
+permissions_ui: false
+permissions: {  }

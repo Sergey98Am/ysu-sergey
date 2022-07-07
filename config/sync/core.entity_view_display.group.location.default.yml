@@ -1,0 +1,32 @@
+uuid: cf0b04b3-35fe-4ecf-8db7-a6e55ade13d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group.location.field_street_address
+    - group.type.location
+id: group.location.default
+targetEntityType: group
+bundle: location
+mode: default
+content:
+  field_street_address:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  changed: true
+  created: true
+  uid: true

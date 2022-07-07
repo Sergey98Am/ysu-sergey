@@ -1,0 +1,16 @@
+uuid: 4d637287-962d-4708-a16c-c2c1a40d012d
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.location
+id: location-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: location
+permissions_ui: true
+permissions:
+  - 'view group'
+  - 'view group_node:article entity'
