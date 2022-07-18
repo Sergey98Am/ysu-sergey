@@ -1,0 +1,8 @@
+uuid: 1eb19366-2828-4ea3-b93f-42fded20893b
+langcode: en
+status: true
+dependencies: {  }
+id: featured_news
+label: 'Featured News'
+revision: 0
+description: ''

@@ -1,0 +1,21 @@
+uuid: 84b3781c-31aa-4da5-8b0c-3f0bdb069d51
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_news
+    - field.field.block_content.featured_news.field_news
+id: block_content.featured_news.default
+targetEntityType: block_content
+bundle: featured_news
+mode: default
+content:
+  field_news:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

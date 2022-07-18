@@ -1,0 +1,17 @@
+uuid: 379e5b9a-999e-46ec-be11-71d78092a260
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.sport
+  enforced:
+    config:
+      - user.role.content_editor
+id: sport-111523d41
+label: 'Content editor'
+weight: 2
+internal: true
+audience: outsider
+group_type: sport
+permissions_ui: false
+permissions: {  }

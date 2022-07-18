@@ -1,0 +1,17 @@
+uuid: 86a7c0ce-0cd2-441f-ab02-7009cf7c7417
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.sport
+  module:
+    - user
+id: sport-group_membership
+label: 'Sport: Group membership'
+description: 'Adds users to groups as members.'
+group_type: sport
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

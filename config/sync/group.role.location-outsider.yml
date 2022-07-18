@@ -12,5 +12,8 @@ audience: outsider
 group_type: location
 permissions_ui: true
 permissions:
+  - 'join group'
+  - 'view any unpublished group'
   - 'view group'
   - 'view group_node:article entity'
+  - 'view own unpublished group'

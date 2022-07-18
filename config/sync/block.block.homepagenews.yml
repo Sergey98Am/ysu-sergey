@@ -1,0 +1,25 @@
+uuid: c3e86de9-d9b0-4224-a6db-7f554ccf1cd2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:featured_news:1cb228ea-a007-4706-a87e-816205278ec4'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: homepagenews
+theme: bartik
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:1cb228ea-a007-4706-a87e-816205278ec4'
+settings:
+  id: 'block_content:1cb228ea-a007-4706-a87e-816205278ec4'
+  label: 'Homepage news'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

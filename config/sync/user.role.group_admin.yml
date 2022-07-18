@@ -1,0 +1,12 @@
+uuid: 0a7d11c1-5501-49f9-92d8-df6739e56521
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+id: group_admin
+label: 'Group admin'
+weight: 4
+is_admin: null
+permissions:
+  - 'administer group'
