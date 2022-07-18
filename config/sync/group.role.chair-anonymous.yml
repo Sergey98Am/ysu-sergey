@@ -1,0 +1,14 @@
+uuid: 77b406a3-c0bf-4fe0-8bdf-2ef3f5e92a4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.chair
+id: chair-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: chair
+permissions_ui: true
+permissions: {  }

@@ -1,0 +1,17 @@
+uuid: b3330bb7-663a-4010-ac68-a87717e5ffa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.chair
+  enforced:
+    config:
+      - user.role.content_editor
+id: chair-111523d41
+label: 'Content editor'
+weight: 2
+internal: true
+audience: outsider
+group_type: chair
+permissions_ui: false
+permissions: {  }

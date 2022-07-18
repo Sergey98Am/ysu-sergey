@@ -1,0 +1,17 @@
+uuid: bfb5ce73-7ccd-4bbe-b3b3-20c00e17cb45
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.conference
+  enforced:
+    config:
+      - user.role.group_admin
+id: conference-e112872b9
+label: 'Group admin'
+weight: 4
+internal: true
+audience: outsider
+group_type: conference
+permissions_ui: false
+permissions: {  }
