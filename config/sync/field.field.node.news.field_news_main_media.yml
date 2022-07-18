@@ -1,0 +1,37 @@
+uuid: 63acee38-2b83-43db-8308-53e252962e36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_main_media
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.news
+id: node.news.field_news_main_media
+field_name: field_news_main_media
+entity_type: node
+bundle: news
+label: 'Main Media'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      audio: audio
+      document: document
+      image: image
+      remote_video: remote_video
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: audio
+field_type: entity_reference
