@@ -1,0 +1,17 @@
+uuid: 26c80b9c-203b-4f87-878a-770ee54aa7e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.chair
+  enforced:
+    config:
+      - user.role.administrator
+id: chair-a416e6833
+label: Administrator
+weight: 3
+internal: true
+audience: outsider
+group_type: chair
+permissions_ui: false
+permissions: {  }

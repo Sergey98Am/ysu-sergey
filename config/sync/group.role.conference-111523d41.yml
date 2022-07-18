@@ -1,0 +1,17 @@
+uuid: 9a941a4b-d027-4799-b527-535ab874917e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.conference
+  enforced:
+    config:
+      - user.role.content_editor
+id: conference-111523d41
+label: 'Content editor'
+weight: 2
+internal: true
+audience: outsider
+group_type: conference
+permissions_ui: false
+permissions: {  }

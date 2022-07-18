@@ -1,0 +1,14 @@
+uuid: f1a49c32-cbf0-4067-938c-aaf3050fbb97
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.chair
+id: chair-member
+label: Member
+weight: -100
+internal: true
+audience: member
+group_type: chair
+permissions_ui: true
+permissions: {  }

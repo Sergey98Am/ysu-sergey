@@ -1,0 +1,23 @@
+uuid: f2bbe702-c60e-45f1-b69b-795c6da090b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_content.chair-group_membership.group_roles
+    - group.content_type.chair-group_membership
+id: group_content.chair-group_membership.default
+targetEntityType: group_content
+bundle: chair-group_membership
+mode: default
+content:
+  group_roles:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+hidden:
+  entity_id: true
+  uid: true

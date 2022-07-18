@@ -1,0 +1,14 @@
+uuid: 0f409225-dac2-484b-8762-f535eb708674
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.chair
+id: chair-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: chair
+permissions_ui: true
+permissions: {  }

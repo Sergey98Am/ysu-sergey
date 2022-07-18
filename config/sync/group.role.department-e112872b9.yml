@@ -1,0 +1,17 @@
+uuid: 9b9be787-32f3-4360-88ae-4fff67b1c5b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+  enforced:
+    config:
+      - user.role.group_admin
+id: department-e112872b9
+label: 'Group admin'
+weight: 4
+internal: true
+audience: outsider
+group_type: department
+permissions_ui: false
+permissions: {  }

@@ -1,0 +1,23 @@
+uuid: db7693db-4017-4cd9-b324-4cff0c380adc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_content.department-group_membership.group_roles
+    - group.content_type.department-group_membership
+id: group_content.department-group_membership.default
+targetEntityType: group_content
+bundle: department-group_membership
+mode: default
+content:
+  group_roles:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+hidden:
+  entity_id: true
+  uid: true
