@@ -1,0 +1,14 @@
+uuid: 3a8e416b-967e-4ef2-b464-d3c01c1f6264
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.news_manager
+  module:
+    - user
+id: user_remove_role_action.news_manager
+label: 'Remove the News manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: news_manager

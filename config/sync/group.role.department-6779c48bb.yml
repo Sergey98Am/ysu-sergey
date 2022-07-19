@@ -1,0 +1,17 @@
+uuid: 24edf823-0b5b-4cc7-914b-e4231a412faf
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+  enforced:
+    config:
+      - user.role.news_manager
+id: department-6779c48bb
+label: 'News manager'
+weight: -5
+internal: true
+audience: outsider
+group_type: department
+permissions_ui: false
+permissions: {  }

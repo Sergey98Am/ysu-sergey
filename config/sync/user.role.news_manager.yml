@@ -1,4 +1,4 @@
-uuid: 0a7d11c1-5501-49f9-92d8-df6739e56521
+uuid: bf831760-147d-4218-82b9-53e9676541a0
 langcode: en
 status: true
 dependencies:
@@ -8,44 +8,64 @@ dependencies:
     - media.type.image
     - media.type.remote_video
     - media.type.video
+    - node.type.news
   module:
-    - group
     - media
-id: group_admin
-label: 'Group admin'
-weight: -7
+    - node
+    - system
+    - toolbar
+    - tour
+id: news_manager
+label: 'News manager'
+weight: -6
 is_admin: null
 permissions:
-  - 'administer group'
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'access user profiles'
   - 'create audio media'
   - 'create document media'
   - 'create image media'
   - 'create media'
+  - 'create news content'
   - 'create remote_video media'
   - 'create video media'
   - 'delete any audio media'
   - 'delete any document media'
   - 'delete any image media'
   - 'delete any media'
+  - 'delete any news content'
   - 'delete any remote_video media'
   - 'delete any video media'
   - 'delete media'
+  - 'delete news revisions'
   - 'delete own audio media'
   - 'delete own document media'
   - 'delete own image media'
+  - 'delete own news content'
   - 'delete own remote_video media'
   - 'delete own video media'
   - 'edit any audio media'
   - 'edit any document media'
   - 'edit any image media'
+  - 'edit any news content'
   - 'edit any remote_video media'
   - 'edit any video media'
   - 'edit own audio media'
   - 'edit own document media'
   - 'edit own image media'
+  - 'edit own news content'
   - 'edit own remote_video media'
   - 'edit own video media'
+  - 'revert all revisions'
+  - 'revert news revisions'
   - 'update any media'
   - 'update media'
   - 'view all media revisions'
+  - 'view all revisions'
+  - 'view news revisions'
+  - 'view own unpublished content'
   - 'view own unpublished media'
+  - 'view the administration theme'
