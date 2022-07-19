@@ -1,0 +1,21 @@
+uuid: f3f0797e-70fb-434e-b2e9-472f91d20840
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+  theme:
+    - olivero
+id: groupoperations_2
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: group_operations
+settings:
+  id: group_operations
+  label: 'Group operations'
+  label_display: visible
+  provider: group
+  context_mapping: {  }
+visibility: {  }
