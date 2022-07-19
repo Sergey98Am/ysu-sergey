@@ -1,0 +1,4 @@
+name: Group Node Custom
+descriptio: Custom Module
+core_version_requirement: ^8 || ^9
+type: module

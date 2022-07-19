@@ -1,14 +1,14 @@
-uuid: bd6cc46f-738f-453e-ae87-c714a0909a4a
+uuid: 7d36f646-f531-4ff7-bcc2-ccb2088ec2ef
 langcode: en
 status: true
 dependencies:
   config:
-    - group.type.location
+    - group.type.chair
     - system.menu.main
   module:
     - group
-id: locations
-label: Locations
+id: chairs
+label: Chairs
 module: views
 description: ''
 tag: ''
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Locations
+      title: Chairs
       fields:
         label:
           id: label
@@ -147,7 +147,7 @@ display:
           entity_field: type
           plugin_id: bundle
           value:
-            location: location
+            chair: chair
           expose:
             operator_limit_selection: false
             operator_list: {  }
@@ -181,10 +181,11 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: locations
+      path: chairs
       menu:
         type: normal
-        title: Locations
+        title: Chairs
+        weight: -47
         menu_name: main
         parent: ''
     cache_metadata:

@@ -1,0 +1,37 @@
+uuid: a92efc2a-469f-48c5-92f3-718c9f945ca7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.chair_news
+  module:
+    - group
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__chair_news_block_1
+theme: bartik
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:chair_news-block_1'
+settings:
+  id: 'views_block:chair_news-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  group_type:
+    id: group_type
+    group_types:
+      chair: chair
+    negate: false
+    context_mapping:
+      group: '@group.group_route_context:group'
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/group/*/*'
