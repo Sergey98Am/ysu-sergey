@@ -11,4 +11,9 @@ internal: true
 audience: member
 group_type: department
 permissions_ui: true
-permissions: {  }
+permissions:
+  - 'leave group'
+  - 'update own group_membership content'
+  - 'view group'
+  - 'view group_membership content'
+  - 'view group_node:news entity'

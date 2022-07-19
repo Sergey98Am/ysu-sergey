@@ -1,0 +1,19 @@
+uuid: 33a7a0b7-e5bf-43c0-94fd-539e5cb31885
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.chair
+    - node.type.news
+  module:
+    - gnode
+    - node
+id: chair-group_node-news
+label: 'Chair: Group node (News)'
+description: 'Adds <em class="placeholder">News</em> content to groups both publicly and privately.'
+group_type: chair
+content_plugin: 'group_node:news'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

@@ -1,0 +1,38 @@
+uuid: 5d5d7b8d-9ba0-4cd6-bae0-a64a37a7c58a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.department_news
+  module:
+    - group
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__department_news_block_1
+theme: bartik
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:department_news-block_1'
+settings:
+  id: 'views_block:department_news-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  group_type:
+    id: group_type
+    group_types:
+      department: department
+    negate: false
+    context_mapping:
+      group: '@group.group_route_context:group'
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/group/*/*'

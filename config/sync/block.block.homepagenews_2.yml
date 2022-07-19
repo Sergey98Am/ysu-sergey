@@ -1,4 +1,4 @@
-uuid: c3e86de9-d9b0-4224-a6db-7f554ccf1cd2
+uuid: 9ba86c7a-7f9a-4f74-89cc-37a30c40531b
 langcode: en
 status: true
 dependencies:
@@ -6,13 +6,12 @@ dependencies:
     - 'block_content:featured_news:1cb228ea-a007-4706-a87e-816205278ec4'
   module:
     - block_content
-    - system
   theme:
-    - bartik
-id: homepagenews
-theme: bartik
+    - olivero
+id: homepagenews_2
+theme: olivero
 region: content
-weight: -6
+weight: 0
 provider: null
 plugin: 'block_content:1cb228ea-a007-4706-a87e-816205278ec4'
 settings:
@@ -23,8 +22,4 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: '<front>'
+visibility: {  }

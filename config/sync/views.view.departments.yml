@@ -1,18 +1,18 @@
-uuid: dd487f92-c8bf-4ec9-a6f6-9172b44e45c0
+uuid: 5b75f42c-4f5f-48cf-8b3f-b6236c6d964b
 langcode: en
 status: true
 dependencies:
   config:
-    - group.content_type.location-group_node-article
+    - group.type.department
+    - system.menu.main
   module:
     - group
-    - node
-id: articles_by_location
-label: 'Articles by location'
+id: departments
+label: Departments
 module: views
 description: ''
 tag: ''
-base_table: group_content_field_data
+base_table: groups_field_data
 base_field: id
 display:
   default:
@@ -21,17 +21,17 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Articles by location'
+      title: Departments
       fields:
-        title:
-          id: title
-          table: node_field_data
-          field: title
-          relationship: gc__node
+        label:
+          id: label
+          table: groups_field_data
+          field: label
+          relationship: none
           group_type: group
           admin_label: ''
-          entity_type: node
-          entity_field: title
+          entity_type: null
+          entity_field: label
           plugin_id: field
           label: ''
           exclude: false
@@ -89,10 +89,23 @@ display:
           separator: ', '
           field_api_classes: false
       pager:
-        type: some
+        type: mini
         options:
           offset: 0
-          items_per_page: 5
+          items_per_page: 10
+          total_pages: null
+          id: 0
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
       exposed_form:
         type: basic
         options:
@@ -113,15 +126,28 @@ display:
       sorts: {  }
       arguments: {  }
       filters:
+        status:
+          id: status
+          table: groups_field_data
+          field: status
+          entity_type: group
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
         type:
           id: type
-          table: group_content_field_data
+          table: groups_field_data
           field: type
-          entity_type: group_content
+          entity_type: group
           entity_field: type
           plugin_id: bundle
           value:
-            location-group_node-article: location-group_node-article
+            department: department
           expose:
             operator_limit_selection: false
             operator_list: {  }
@@ -137,31 +163,7 @@ display:
           distinct: false
           replica: false
           query_tags: {  }
-      relationships:
-        gc__node:
-          id: gc__node
-          table: group_content_field_data
-          field: gc__node
-          relationship: none
-          group_type: group
-          admin_label: 'Group content Content'
-          entity_type: group_content
-          plugin_id: group_content_to_entity
-          required: true
-          group_content_plugins:
-            'group_node:article': 'group_node:article'
-            'group_node:page': 'group_node:page'
-        gid:
-          id: gid
-          table: group_content_field_data
-          field: gid
-          relationship: none
-          group_type: group
-          admin_label: Group
-          entity_type: group_content
-          entity_field: gid
-          plugin_id: standard
-          required: true
+      relationships: {  }
       header: {  }
       footer: {  }
       display_extenders: {  }
@@ -170,17 +172,26 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url.query_args
       tags: {  }
-  block_1:
-    id: block_1
-    display_title: Block
-    display_plugin: block
+  department_view:
+    id: department_view
+    display_title: Page
+    display_plugin: page
     position: 1
     display_options:
       display_extenders: {  }
+      path: departments
+      menu:
+        type: normal
+        title: Departments
+        weight: -48
+        menu_name: main
+        parent: ''
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url.query_args
       tags: {  }
