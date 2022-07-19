@@ -12,19 +12,11 @@ dependencies:
   module:
     - media
     - node
-    - system
-    - toolbar
-    - tour
 id: news_manager
 label: 'News manager'
 weight: -6
 is_admin: null
 permissions:
-  - 'access administration pages'
-  - 'access content overview'
-  - 'access toolbar'
-  - 'access tour'
-  - 'access user profiles'
   - 'create audio media'
   - 'create document media'
   - 'create image media'
@@ -52,16 +44,10 @@ permissions:
   - 'edit own audio media'
   - 'edit own document media'
   - 'edit own image media'
-  - 'edit own news content'
   - 'edit own remote_video media'
   - 'edit own video media'
-  - 'revert all revisions'
-  - 'revert news revisions'
   - 'update any media'
   - 'update media'
   - 'view all media revisions'
-  - 'view all revisions'
-  - 'view news revisions'
   - 'view own unpublished content'
   - 'view own unpublished media'
-  - 'view the administration theme'
