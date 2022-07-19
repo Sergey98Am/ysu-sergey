@@ -1,0 +1,17 @@
+uuid: c61261ab-d5ea-401b-8638-ece3f346edea
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.conference
+  enforced:
+    config:
+      - user.role.news_manager
+id: conference-6779c48bb
+label: 'News manager'
+weight: -5
+internal: true
+audience: outsider
+group_type: conference
+permissions_ui: false
+permissions: {  }

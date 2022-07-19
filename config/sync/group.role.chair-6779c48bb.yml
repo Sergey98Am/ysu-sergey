@@ -1,0 +1,17 @@
+uuid: fd5bea25-f603-49ce-bf10-cc6cba26fead
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.chair
+  enforced:
+    config:
+      - user.role.news_manager
+id: chair-6779c48bb
+label: 'News manager'
+weight: -5
+internal: true
+audience: outsider
+group_type: chair
+permissions_ui: false
+permissions: {  }
