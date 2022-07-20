@@ -1,0 +1,16 @@
+// Color system
+$gray-100: #FCFCFC;
+$gray-200: #D1D1D1;
+$gray-500: #E3E3E3;
+$gray-900: #414849;
+
+$dark: $gray-900;
+$dark_25: rgba(65, 72, 73, .25);
+$dark_05: rgba(65, 72, 73, .05);
+$blue: #1663D5;
+$orange: #FC9416;
+$dark-blue: #041023;
+
+$secondary: $orange;
+
+@import "bootstrap/scss/bootstrap";

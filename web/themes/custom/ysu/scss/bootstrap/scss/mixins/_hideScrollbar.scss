@@ -1,0 +1,8 @@
+// Mixin removes (hides) scrollbar for containers that have overflowed content
+
+@mixin hideScrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
