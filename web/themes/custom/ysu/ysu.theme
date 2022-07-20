@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function burger_theme_preprocess_node(&$variables) {
+  $variables['content']['field_image']['#suffix'] = 'suffix to a nice image';
+}

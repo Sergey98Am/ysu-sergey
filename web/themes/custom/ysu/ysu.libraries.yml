@@ -1,0 +1,13 @@
+global-styling:
+  css:
+    theme:
+      css/main.css: {}
+  js:
+    bootstrap/js/bootstrap.min.js: {}
+    js/main.js: {}
+  dependencies:
+    - core/jquery
+fontawsome_cdn:
+  css:
+    base:
+      //stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: {type: external}
