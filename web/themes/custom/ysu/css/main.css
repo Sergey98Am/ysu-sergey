@@ -2707,3 +2707,44 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2021 !important; }
   .table-dark { color: inherit; }
   .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody { border-color: #dee2e6; }
   .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
+.ghea-mariam-regular { font-family: 'GHEA Mariam Regular', serif; }
+
+.ghea-mariam-italic { font-family: 'GHEA Mariam Italic', serif; }
+
+.ghea-mariam-bold { font-family: 'GHEA Mariam Bold', serif; }
+
+.ghea-grapalat-regular { font-family: 'GHEA Grapalat Regular', serif; }
+
+.ghea-grapalat-italic { font-family: 'GHEA Grapalat Italic', serif; }
+
+.ghea-grapalat-bold { font-family: 'GHEA Grapalat Bold', serif; }
+
+.large-title { font-size: 45px; }
+
+.ysu-button { border-radius: 20px 0; padding: 10px 35px; }
+
+.btn-blue { background: none; border: 1px solid #0F3F76; }
+
+.btn-accent-green { background: #C9D568; border: 1px solid #C9D568; }
+
+.btn-accent-blue { background: #00A3D8; color: #ffffff; border: 1px solid #00A3D8; }
+
+.one-word-line-accent-green { width: 100%; border-bottom: 3px solid #C9D568; padding-bottom: 3px; }
+
+.thick-line:before, .thick-line:after { height: 12.1px; }
+
+.thin-line:before, .thin-line:after { height: 4px; }
+
+.title-line:before, .title-line:after { bottom: -8px; }
+
+.line { position: relative; }
+.line:before, .line:after { content: ''; position: absolute; display: inline-block; }
+.line:before { width: 25%; background: #5795AD; }
+.line:after { width: 75%; left: 25%; background: #C9D568; }
+
+@font-face { font-family: 'GHEA Mariam Regular'; src: url("../fonts/GHEAMariam/GHEAMariamReg.otf") format("opentype"); }
+@font-face { font-family: 'GHEA Mariam Italic'; src: url("../fonts/GHEAMariam/GHEAMariamRIt.otf") format("opentype"); }
+@font-face { font-family: 'GHEA Mariam Bold'; src: url("../fonts/GHEAMariam/GHEAMariamBld.otf") format("opentype"); }
+@font-face { font-family: 'GHEA Grapalat Regular'; src: url("../fonts/GHEAGrapalat/GHEAGrpalatReg.otf") format("opentype"); }
+@font-face { font-family: 'GHEA Grapalat Italic'; src: url("../fonts/GHEAGrapalat/GHEAGrapalatRit.otf") format("opentype"); }
+@font-face { font-family: 'GHEA Grapalat Bold'; src: url("../fonts/GHEAGrapalat/GHEAGpalatBld.otf") format("opentype"); }
