@@ -1,0 +1,123 @@
+//GHEA Mariam
+.ghea-mariam-regular {
+  font-family: 'GHEA Mariam Regular', serif;
+}
+
+.ghea-mariam-italic {
+  font-family: 'GHEA Mariam Italic', serif;
+}
+
+.ghea-mariam-bold {
+  font-family: 'GHEA Mariam Bold', serif;
+}
+
+//GHEA Grapalat
+.ghea-grapalat-regular {
+  font-family: 'GHEA Grapalat Regular', serif;
+}
+
+.ghea-grapalat-italic {
+  font-family: 'GHEA Grapalat Italic', serif;
+}
+
+.ghea-grapalat-bold {
+  font-family: 'GHEA Grapalat Bold', serif;
+}
+
+.large-title {
+  font-size: 45px;
+}
+
+.ysu-button {
+  border-radius: 20px 0;
+  padding: 10px 35px;
+}
+
+.btn-blue {
+  background: none;
+  border: 1px solid #0F3F76;
+}
+
+.btn-accent-green {
+  background: #C9D568;
+  border: 1px solid #C9D568;
+}
+
+.btn-accent-blue {
+  background: #00A3D8;
+  color: #ffffff;
+  border: 1px solid #00A3D8;
+}
+
+.one-word-line-accent-green {
+  width: 100%;
+  border-bottom: 3px solid #C9D568;
+  padding-bottom: 3px;
+}
+
+//.thick-line {
+//  height: 12.1px;
+//}
+
+//.thin-line {
+//  height: 4px;
+//}
+
+// With tags
+//.line {
+//  display: flex;
+//
+//  .per-line {
+//    height: inherit;
+//  }
+//
+//  .line-accent-green {
+//    width: 75%;
+//    background: #C9D568;
+//  }
+//
+//  .line-accent-blue {
+//    width: 25%;
+//    background: #5795AD;
+//  }
+//}
+
+// With pseudo elements
+.thick-line {
+  &:before, &:after {
+    height: 12.1px;
+  }
+}
+
+.thin-line {
+  &:before, &:after {
+    height: 4px;
+  }
+}
+
+.title-line {
+  &:before, &:after {
+    bottom: -8px;
+  }
+}
+
+.line {
+  position: relative;
+
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+  }
+
+  &:before {
+    width: 25%;
+    background: #5795AD;
+  }
+
+  &:after {
+    width: 75%;
+    left: 25%;
+    background: #C9D568;
+  }
+}
