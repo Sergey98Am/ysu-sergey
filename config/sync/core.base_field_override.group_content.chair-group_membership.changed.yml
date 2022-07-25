@@ -1,0 +1,18 @@
+uuid: 1257ab36-0f3f-4257-9755-c9dc160d53c5
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.content_type.chair-group_membership
+id: group_content.chair-group_membership.changed
+field_name: changed
+entity_type: group_content
+bundle: chair-group_membership
+label: 'Changed on'
+description: 'The time that the group content was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

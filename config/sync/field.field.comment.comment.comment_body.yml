@@ -1,5 +1,5 @@
 uuid: 00238229-4adc-4921-82aa-3aca9c7b2534
-langcode: en
+langcode: hy
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: comment
 label: Comment
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

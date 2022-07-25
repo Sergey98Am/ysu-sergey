@@ -1,0 +1,20 @@
+uuid: e5e8b068-c106-47d5-947a-0f8588b3205b
+langcode: hy
+status: true
+dependencies:
+  config:
+    - media.type.video
+id: media.video.name
+field_name: name
+entity_type: media
+bundle: video
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

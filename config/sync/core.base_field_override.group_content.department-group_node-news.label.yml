@@ -1,0 +1,18 @@
+uuid: 83eeffea-4b44-4ac4-8ddf-d5f9711e2583
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.content_type.department-group_node-news
+id: group_content.department-group_node-news.label
+field_name: label
+entity_type: group_content
+bundle: department-group_node-news
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

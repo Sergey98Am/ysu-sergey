@@ -1,0 +1,18 @@
+uuid: a95e8bf2-77e5-4f83-a532-8cf7d10ea8a9
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.content_type.department-group_membership
+id: group_content.department-group_membership.created
+field_name: created
+entity_type: group_content
+bundle: department-group_membership
+label: 'Created on'
+description: 'The time that the group content was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

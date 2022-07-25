@@ -1,5 +1,5 @@
 uuid: ad7328a1-c5c8-4860-82f4-c9efdd21aeeb
-langcode: en
+langcode: hy
 status: true
 dependencies:
   config:
@@ -23,6 +23,13 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden:
   created: true

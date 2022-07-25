@@ -1,0 +1,22 @@
+uuid: 88a14341-0204-4eda-a5ac-f1ae5ea6342b
+langcode: hy
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_news
+id: block_content.featured_news.status
+field_name: status
+entity_type: block_content
+bundle: featured_news
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

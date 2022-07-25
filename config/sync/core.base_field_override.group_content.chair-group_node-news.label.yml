@@ -1,0 +1,18 @@
+uuid: aee21f96-7329-47af-a72a-806cf4a3a4ac
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.content_type.chair-group_node-news
+id: group_content.chair-group_node-news.label
+field_name: label
+entity_type: group_content
+bundle: chair-group_node-news
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

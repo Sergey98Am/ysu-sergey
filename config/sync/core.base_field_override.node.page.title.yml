@@ -1,0 +1,18 @@
+uuid: bda4f5b7-b4f9-4c18-bfe9-2ce4d0e2161d
+langcode: hy
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.title
+field_name: title
+entity_type: node
+bundle: page
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

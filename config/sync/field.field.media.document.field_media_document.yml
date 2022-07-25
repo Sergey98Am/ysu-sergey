@@ -1,5 +1,5 @@
 uuid: 3db8e9c6-fa62-4d66-9942-a9a34930c05d
-langcode: en
+langcode: hy
 status: true
 dependencies:
   config:
@@ -19,7 +19,7 @@ bundle: document
 label: Document
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

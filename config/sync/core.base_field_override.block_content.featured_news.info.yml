@@ -1,0 +1,18 @@
+uuid: e1251c0a-d3b8-49b8-9f6a-ff1ff874c742
+langcode: hy
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_news
+id: block_content.featured_news.info
+field_name: info
+entity_type: block_content
+bundle: featured_news
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: 4825a6aa-bb8e-4f77-a48d-f3f09910f2e0
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.content_type.department-group_membership
+  module:
+    - path
+id: group_content.department-group_membership.path
+field_name: path
+entity_type: group_content
+bundle: department-group_membership
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

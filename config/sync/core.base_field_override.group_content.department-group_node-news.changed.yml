@@ -1,0 +1,18 @@
+uuid: 4970aa83-82f8-4c05-a7db-2d41962b3a07
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.content_type.department-group_node-news
+id: group_content.department-group_node-news.changed
+field_name: changed
+entity_type: group_content
+bundle: department-group_node-news
+label: 'Changed on'
+description: 'The time that the group content was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

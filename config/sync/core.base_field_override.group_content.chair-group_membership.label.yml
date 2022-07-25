@@ -1,0 +1,18 @@
+uuid: 2d045781-0422-446d-a2b8-25e6956aecd2
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.content_type.chair-group_membership
+id: group_content.chair-group_membership.label
+field_name: label
+entity_type: group_content
+bundle: chair-group_membership
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

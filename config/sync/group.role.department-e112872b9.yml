@@ -15,6 +15,7 @@ audience: outsider
 group_type: department
 permissions_ui: false
 permissions:
+  - 'access group_node overview'
   - 'administer members'
   - 'create group_node:news content'
   - 'create group_node:news entity'

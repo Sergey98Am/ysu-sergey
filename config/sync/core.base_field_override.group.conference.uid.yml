@@ -1,0 +1,20 @@
+uuid: c08ebf9e-14e9-46f4-9659-a70635040d0f
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.type.conference
+id: group.conference.uid
+field_name: uid
+entity_type: group
+bundle: conference
+label: 'Group creator'
+description: 'The username of the group creator.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\group\Entity\Group::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,18 @@
+uuid: bbc77842-477f-4c24-aa19-7c9a3babed00
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.type.chair
+id: group.chair.created
+field_name: created
+entity_type: group
+bundle: chair
+label: 'Created on'
+description: 'The time that the group was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

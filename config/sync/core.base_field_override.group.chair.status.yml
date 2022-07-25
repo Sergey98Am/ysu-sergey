@@ -1,0 +1,22 @@
+uuid: b3e9501e-c49c-4dee-b697-be97ee7f55c6
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.type.chair
+id: group.chair.status
+field_name: status
+entity_type: group
+bundle: chair
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

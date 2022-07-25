@@ -1,0 +1,20 @@
+uuid: 01ac25c3-4c7a-487d-b173-438dfceed20f
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.content_type.department-group_node-news
+  module:
+    - path
+id: group_content.department-group_node-news.path
+field_name: path
+entity_type: group_content
+bundle: department-group_node-news
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

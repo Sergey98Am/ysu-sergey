@@ -1,5 +1,5 @@
 uuid: d018593d-6e17-412e-ab68-a43769bb69f3
-langcode: en
+langcode: hy
 status: false
 dependencies:
   config:
@@ -19,7 +19,7 @@ base_field: nid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Լռելյայն
     display_plugin: default
     position: 0
     display_options:

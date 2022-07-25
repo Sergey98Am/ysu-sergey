@@ -1,0 +1,20 @@
+uuid: 28be1416-6b13-4ac2-a9c0-c3a1d793f4e3
+langcode: hy
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.name
+field_name: name
+entity_type: media
+bundle: document
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

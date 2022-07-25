@@ -1,5 +1,5 @@
 uuid: 0dfc00c4-52a0-4c49-9173-00b7a135b5bc
-langcode: en
+langcode: hy
 status: true
 dependencies:
   config:
@@ -20,8 +20,8 @@ content:
     type: image
     label: hidden
     settings:
-      image_style: medium
       image_link: ''
+      image_style: medium
       image_loading:
         attribute: lazy
     third_party_settings: {  }
@@ -30,5 +30,6 @@ content:
 hidden:
   created: true
   field_media_oembed_video: true
+  langcode: true
   name: true
   uid: true
