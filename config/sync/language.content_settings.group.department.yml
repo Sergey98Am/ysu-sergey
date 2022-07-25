@@ -1,0 +1,18 @@
+uuid: 55e1c5d2-8189-4373-8e2d-cf13252be15c
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.type.department
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: group.department
+target_entity_type_id: group
+target_bundle: department
+default_langcode: site_default
+language_alterable: false

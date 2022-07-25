@@ -1,0 +1,20 @@
+uuid: 703ecb8f-bb53-41e6-ac6e-7ea90b05ac0a
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.type.chair
+  module:
+    - path
+id: group.chair.path
+field_name: path
+entity_type: group
+bundle: chair
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

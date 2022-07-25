@@ -1,0 +1,18 @@
+uuid: d12d4a93-72f5-434d-98bb-d4a5cff5bfca
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.type.conference
+id: group.conference.changed
+field_name: changed
+entity_type: group
+bundle: conference
+label: 'Changed on'
+description: 'The time that the group was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

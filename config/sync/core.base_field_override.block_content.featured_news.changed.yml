@@ -1,0 +1,18 @@
+uuid: 2d9d1985-8813-4643-8950-340a1f5ae6a0
+langcode: hy
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_news
+id: block_content.featured_news.changed
+field_name: changed
+entity_type: block_content
+bundle: featured_news
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

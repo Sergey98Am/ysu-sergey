@@ -1,0 +1,18 @@
+uuid: 41fc1db6-e93d-48e2-a742-09a295dc0f64
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.content_type.chair-group_node-news
+id: group_content.chair-group_node-news.created
+field_name: created
+entity_type: group_content
+bundle: chair-group_node-news
+label: 'Created on'
+description: 'The time that the group content was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

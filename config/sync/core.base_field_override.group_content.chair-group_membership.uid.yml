@@ -1,0 +1,20 @@
+uuid: 4f23c00e-934a-4629-b8e9-690539e939de
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.content_type.chair-group_membership
+id: group_content.chair-group_membership.uid
+field_name: uid
+entity_type: group_content
+bundle: chair-group_membership
+label: 'Group content creator'
+description: 'The username of the group content creator.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\group\Entity\GroupContent::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

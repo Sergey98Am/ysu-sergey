@@ -1,5 +1,5 @@
 uuid: 47783fd4-3f0a-4807-be3c-1f2d9a2511b7
-langcode: en
+langcode: hy
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ base_field: uid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Լռելյայն
     display_plugin: default
     position: 0
     display_options:

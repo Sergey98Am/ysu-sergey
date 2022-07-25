@@ -1,5 +1,5 @@
 uuid: c805f1bd-3812-4d3b-b507-7be1296f4aab
-langcode: en
+langcode: hy
 status: true
 dependencies:
   config:
@@ -23,6 +23,7 @@ content:
     region: content
 hidden:
   created: true
+  langcode: true
   name: true
   thumbnail: true
   uid: true

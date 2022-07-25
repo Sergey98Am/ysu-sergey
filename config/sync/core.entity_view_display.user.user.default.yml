@@ -1,5 +1,5 @@
 uuid: f2797896-fb30-4170-8046-fc8e59250aae
-langcode: en
+langcode: hy
 status: true
 dependencies:
   config:
@@ -22,11 +22,12 @@ content:
     type: image
     label: hidden
     settings:
-      image_style: thumbnail
       image_link: content
+      image_style: thumbnail
       image_loading:
         attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
-hidden: {  }
+hidden:
+  langcode: true

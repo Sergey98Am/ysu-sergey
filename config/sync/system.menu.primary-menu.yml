@@ -1,0 +1,8 @@
+uuid: a203acfc-744a-4ad0-b9ef-3459afb62506
+langcode: hy
+status: true
+dependencies: {  }
+id: primary-menu
+label: 'Primary menu'
+description: ''
+locked: false

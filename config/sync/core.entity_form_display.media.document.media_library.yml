@@ -1,5 +1,5 @@
 uuid: 6be99669-2715-4755-86b6-8e93f5e1bec7
-langcode: en
+langcode: hy
 status: true
 dependencies:
   config:
@@ -12,7 +12,14 @@ id: media.document.media_library
 targetEntityType: media
 bundle: document
 mode: media_library
-content: {  }
+content:
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
 hidden:
   created: true
   field_media_document: true

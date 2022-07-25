@@ -1,5 +1,5 @@
 uuid: e1a289c8-6bc0-4282-b460-46825e8bcff9
-langcode: en
+langcode: hy
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: audio
 label: 'Audio file'
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

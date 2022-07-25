@@ -1,0 +1,20 @@
+uuid: eb84e845-da8d-4af7-b4fb-907cad16b261
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.type.conference
+  module:
+    - path
+id: group.conference.path
+field_name: path
+entity_type: group
+bundle: conference
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

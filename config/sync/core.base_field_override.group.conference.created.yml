@@ -1,0 +1,18 @@
+uuid: 7c4aa264-5006-49de-b9a5-5b8461f869af
+langcode: hy
+status: true
+dependencies:
+  config:
+    - group.type.conference
+id: group.conference.created
+field_name: created
+entity_type: group
+bundle: conference
+label: 'Created on'
+description: 'The time that the group was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
