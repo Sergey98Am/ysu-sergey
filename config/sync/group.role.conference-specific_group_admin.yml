@@ -1,0 +1,14 @@
+uuid: 301cc3ed-1bb7-40a9-be9b-57c6f6bb41ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.conference
+id: conference-specific_group_admin
+label: 'Specific group admin'
+weight: 7
+internal: false
+audience: member
+group_type: conference
+permissions_ui: true
+permissions: {  }

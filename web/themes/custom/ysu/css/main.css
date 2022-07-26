@@ -2707,17 +2707,17 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2021 !important; }
   .table-dark { color: inherit; }
   .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody { border-color: #dee2e6; }
   .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
-.ghea-mariam-regular { font-family: 'GHEA Mariam Regular', serif; }
+.ghea-mariam-regular { font-family: 'GHEA Mariam', sans-serif; }
 
-.ghea-mariam-italic { font-family: 'GHEA Mariam Italic', serif; }
+.ghea-mariam-italic { font-family: 'GHEA Mariam', sans-serif; font-style: italic; }
 
-.ghea-mariam-bold { font-family: 'GHEA Mariam Bold', serif; }
+.ghea-mariam-bold { font-family: 'GHEA Mariam', sans-serif; font-weight: 700; }
 
-.ghea-grapalat-regular { font-family: 'GHEA Grapalat Regular', serif; }
+.ghea-grapalat-regular { font-family: 'GHEA Grapalat', sans-serif; }
 
-.ghea-grapalat-italic { font-family: 'GHEA Grapalat Italic', serif; }
+.ghea-grapalat-italic { font-family: 'GHEA Grapalat', sans-serif; font-style: italic; }
 
-.ghea-grapalat-bold { font-family: 'GHEA Grapalat Bold', serif; }
+.ghea-grapalat-bold { font-family: 'GHEA Grapalat', sans-serif; font-weight: 700; }
 
 .large-title { font-size: 45px; }
 
@@ -2742,9 +2742,29 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2021 !important; }
 .line:before { width: 25%; background: #5795AD; }
 .line:after { width: 75%; left: 25%; background: #C9D568; }
 
-@font-face { font-family: 'GHEA Mariam Regular'; src: url("../fonts/GHEAMariam/GHEAMariamReg.otf") format("opentype"); }
-@font-face { font-family: 'GHEA Mariam Italic'; src: url("../fonts/GHEAMariam/GHEAMariamRIt.otf") format("opentype"); }
-@font-face { font-family: 'GHEA Mariam Bold'; src: url("../fonts/GHEAMariam/GHEAMariamBld.otf") format("opentype"); }
-@font-face { font-family: 'GHEA Grapalat Regular'; src: url("../fonts/GHEAGrapalat/GHEAGrpalatReg.otf") format("opentype"); }
-@font-face { font-family: 'GHEA Grapalat Italic'; src: url("../fonts/GHEAGrapalat/GHEAGrapalatRit.otf") format("opentype"); }
-@font-face { font-family: 'GHEA Grapalat Bold'; src: url("../fonts/GHEAGrapalat/GHEAGpalatBld.otf") format("opentype"); }
+/* GHEA Mariam */
+/* Regular */
+@font-face { font-family: "GHEA Mariam"; src: url("../fonts/GHEAMariam/GHEAMariamReg.woff2") format("woff2"), url("../fonts/GHEAMariam/GHEAMariamReg.woff") format("woff"), url("../fonts/GHEAMariam/GHEAMariamReg.otf") format("opentype");
+  /* Safari, Android, iOS */
+font-weight: normal; font-style: normal; }
+/* Italic */
+@font-face { font-family: "GHEA Mariam"; src: url("../fonts/GHEAMariam/GHEAMariamRIt.woff2") format("woff2"), url("../fonts/GHEAMariam/GHEAMariamRIt.woff") format("woff"), url("../fonts/GHEAMariam/GHEAMariamRIt.otf") format("opentype");
+  /* Safari, Android, iOS */
+font-weight: normal; font-style: italic; }
+/* Bold */
+@font-face { font-family: "GHEA Mariam"; src: url("../fonts/GHEAMariam/GHEAMariamBld.woff2") format("woff2"), url("../fonts/GHEAMariam/GHEAMariamBld.woff") format("woff"), url("../fonts/GHEAMariam/GHEAMariamBld.otf") format("opentype");
+  /* Safari, Android, iOS */
+font-weight: 700; font-style: italic; }
+/* GHEA Grapalat */
+/* Regular */
+@font-face { font-family: "GHEA Grapalat"; src: url("../fonts/GHEAGrapalat/GHEAGrpalatReg.woff2") format("woff2"), url("../fonts/GHEAGrapalat/GHEAGrpalatReg.woff") format("woff"), url("../fonts/GHEAGrapalat/GHEAGrpalatReg.otf") format("opentype");
+  /* Safari, Android, iOS */
+font-weight: normal; font-style: normal; }
+/* Italic */
+@font-face { font-family: "GHEA Grapalat"; src: url("../fonts/GHEAGrapalat/GHEAGrapalatRit.woff2") format("woff2"), url("../fonts/GHEAGrapalat/GHEAGrapalatRit.woff") format("woff"), url("../fonts/GHEAGrapalat/GHEAGrapalatRit.otf") format("opentype");
+  /* Safari, Android, iOS */
+font-weight: normal; font-style: italic; }
+/* Bold */
+@font-face { font-family: "GHEA Grapalat"; src: url("../fonts/GHEAGrapalat/GHEAGpalatBld.woff2") format("woff2"), url("../fonts/GHEAGrapalat/GHEAGpalatBld.woff") format("woff"), url("../fonts/GHEAGrapalat/GHEAGpalatBld.otf") format("opentype");
+  /* Safari, Android, iOS */
+font-weight: 700; font-style: normal; }

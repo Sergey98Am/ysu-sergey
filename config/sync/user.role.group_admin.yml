@@ -12,7 +12,7 @@ dependencies:
     - group
     - media
 id: group_admin
-label: 'Group admin'
+label: 'Global group admin'
 weight: -7
 is_admin: null
 permissions:

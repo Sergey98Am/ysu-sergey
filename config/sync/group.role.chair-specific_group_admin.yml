@@ -1,0 +1,21 @@
+uuid: a555bbfd-9628-4fb4-afe7-2105f39cbea0
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.chair
+id: chair-specific_group_admin
+label: 'Specific group admin'
+weight: 6
+internal: false
+audience: member
+group_type: chair
+permissions_ui: true
+permissions:
+  - 'access group_node overview'
+  - 'administer members'
+  - 'create group_node:news entity'
+  - 'delete any group_node:news entity'
+  - 'update any group_node:news entity'
+  - 'view group_membership content'
+  - 'view group_node:news entity'

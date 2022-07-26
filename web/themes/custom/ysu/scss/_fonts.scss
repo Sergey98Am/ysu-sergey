@@ -1,31 +1,61 @@
-//GHEA Mariam
+/* GHEA Mariam */
+/* Regular */
 @font-face {
-  font-family: 'GHEA Mariam Regular';
-  src: url('../fonts/GHEAMariam/GHEAMariamReg.otf') format("opentype");
+  font-family: "GHEA Mariam";
+  src: url('../fonts/GHEAMariam/GHEAMariamReg.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GHEAMariam/GHEAMariamReg.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GHEAMariam/GHEAMariamReg.otf') format('opentype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
 }
 
+/* Italic */
 @font-face {
-  font-family: 'GHEA Mariam Italic';
-  src: url('../fonts/GHEAMariam/GHEAMariamRIt.otf') format('opentype');
+  font-family: "GHEA Mariam";
+  src: url('../fonts/GHEAMariam/GHEAMariamRIt.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GHEAMariam/GHEAMariamRIt.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GHEAMariam/GHEAMariamRIt.otf') format('opentype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: italic;
 }
 
+/* Bold */
 @font-face {
-  font-family: 'GHEA Mariam Bold';
-  src: url('../fonts/GHEAMariam/GHEAMariamBld.otf') format('opentype');
+  font-family: "GHEA Mariam";
+  src: url('../fonts/GHEAMariam/GHEAMariamBld.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GHEAMariam/GHEAMariamBld.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GHEAMariam/GHEAMariamBld.otf') format('opentype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: italic;
 }
 
-//GHEA Grapalat
+/* GHEA Grapalat */
+/* Regular */
 @font-face {
-  font-family: 'GHEA Grapalat Regular';
-  src: url('../fonts/GHEAGrapalat/GHEAGrpalatReg.otf') format("opentype");
+  font-family: "GHEA Grapalat";
+  src: url('../fonts/GHEAGrapalat/GHEAGrpalatReg.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GHEAGrapalat/GHEAGrpalatReg.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GHEAGrapalat/GHEAGrpalatReg.otf') format('opentype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
 }
 
+/* Italic */
 @font-face {
-  font-family: 'GHEA Grapalat Italic';
-  src: url('../fonts/GHEAGrapalat/GHEAGrapalatRit.otf') format('opentype');
+  font-family: "GHEA Grapalat";
+  src: url('../fonts/GHEAGrapalat/GHEAGrapalatRit.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GHEAGrapalat/GHEAGrapalatRit.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GHEAGrapalat/GHEAGrapalatRit.otf') format('opentype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: italic;
 }
 
+/* Bold */
 @font-face {
-  font-family: 'GHEA Grapalat Bold';
-  src: url('../fonts/GHEAGrapalat/GHEAGpalatBld.otf') format('opentype');
+  font-family: "GHEA Grapalat";
+  src: url('../fonts/GHEAGrapalat/GHEAGpalatBld.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GHEAGrapalat/GHEAGpalatBld.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GHEAGrapalat/GHEAGpalatBld.otf') format('opentype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: normal;
 }

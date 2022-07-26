@@ -8,7 +8,7 @@ dependencies:
     config:
       - user.role.group_admin
 id: chair-e112872b9
-label: 'Group admin'
+label: 'Global group admin'
 weight: 4
 internal: true
 audience: outsider

@@ -1,0 +1,21 @@
+uuid: e774d509-bde9-46f4-9621-14c468c31217
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+id: department-specific_group_admin
+label: 'Specific group admin'
+weight: 5
+internal: false
+audience: member
+group_type: department
+permissions_ui: true
+permissions:
+  - 'access group_node overview'
+  - 'administer members'
+  - 'create group_node:news entity'
+  - 'delete any group_node:news entity'
+  - 'update any group_node:news entity'
+  - 'view group_membership content'
+  - 'view group_node:news entity'
