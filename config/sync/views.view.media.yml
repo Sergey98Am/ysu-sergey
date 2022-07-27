@@ -380,7 +380,7 @@ display:
           settings:
             format: custom
             format_custom_false: Unpublished
-            format_custom_true: Published
+            format_custom_true: Հրապարակված
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -467,7 +467,7 @@ display:
           admin_label: ''
           entity_type: media
           plugin_id: entity_operations
-          label: Operations
+          label: Գործողություններ
           exclude: false
           alter:
             alter_text: false
@@ -704,7 +704,7 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Հրապարակված
                 operator: '='
                 value: '1'
               2:

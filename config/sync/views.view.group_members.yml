@@ -450,7 +450,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: dropbutton
-          label: Operations
+          label: Գործողություններ
           exclude: false
           alter:
             alter_text: false
