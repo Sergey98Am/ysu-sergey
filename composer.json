@@ -23,6 +23,7 @@
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/group": "^1.4",
+        "drupal/group_permissions": "^1.0@alpha",
         "drupal/superfish": "^1.4",
         "drush/drush": "^11.0",
         "vlucas/phpdotenv": "^5.1",

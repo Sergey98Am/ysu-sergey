@@ -16,7 +16,10 @@ label: 'Global group admin'
 weight: -7
 is_admin: null
 permissions:
+  - 'access user profiles'
+  - 'administer account settings'
   - 'administer group'
+  - 'administer users'
   - 'create audio media'
   - 'create document media'
   - 'create image media'

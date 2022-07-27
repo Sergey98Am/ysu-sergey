@@ -260,7 +260,7 @@ display:
               authenticated: authenticated
           is_grouped: true
           group_info:
-            label: Published
+            label: Հրապարակված
             description: ''
             identifier: status
             optional: true
@@ -271,7 +271,7 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Հրապարակված
                 operator: '='
                 value: '1'
               2:
@@ -713,7 +713,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          text: Delete
+          text: Հեռացնել
           output_url_as_text: false
           absolute: false
         rendered_entity:
