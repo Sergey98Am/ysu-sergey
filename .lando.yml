@@ -14,11 +14,17 @@ services:
       - apt-get update -y
       - apt-get install ruby-full -y
       - gem install compass
-
+      - lando npm install
 tooling:
+  npm:
+    service: node
+  node:
+    service: node
   ruby:
     service: node
   compass:
+    service: node
+  gulp:
     service: node
 
 proxy:
