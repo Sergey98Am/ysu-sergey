@@ -27,6 +27,7 @@
         "drupal/entity_extra_field": "^2.0@alpha",
         "drupal/group": "^1.4",
         "drupal/group_permissions": "^1.0@alpha",
+        "drupal/manage_display": "^2.0@beta",
         "drupal/pathauto": "^1.11",
         "drupal/superfish": "^1.4",
         "drush/drush": "^11.0",
@@ -91,6 +92,7 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
+        "enable-patching": true,
         "patches": {
         }
     }

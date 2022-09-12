@@ -1,0 +1,42 @@
+diff --git a/modules/contrib/manage_display/modules/manage_display_fix_title/manage_display_fix_title.module b/modules/contrib/manage_display/modules/manage_display_fix_title/manage_display_fix_title.module
+index 7cc6413..8a25849 100644
+--- a/modules/contrib/manage_display/modules/manage_display_fix_title/manage_display_fix_title.module
++++ b/modules/contrib/manage_display/modules/manage_display_fix_title/manage_display_fix_title.module
+@@ -66,4 +66,36 @@ function manage_display_fix_title_preprocess_entity_page_title(&$variables) {
+
+   $label_field = $entity->getEntityType()->getKey('label');
+   $variables['attributes']['data-quickedit-field-id'] = $entity->getEntityTypeId() . '/' . $entity->id() . '/' . $label_field . '/' . $entity->language()->getId() . '/' . $variables['view_mode'];
++}
++
++/**
++ * Implements hook_ENTITY_TYPE_view().
++ */
++function manage_display_fix_title_node_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
++  if (isset($build['title'])
++    && NULL !== $display->getComponent('title')) {
++    $build['_title'] =
++      \Drupal\Component\Utility\NestedArray::mergeDeep([], $build['title']);
++  }
++}
++
++/**
++ * Implements hook_ENTITY_TYPE_view_alter().
++ */
++function manage_display_fix_title_node_view_alter(
++  array &$build,
++  \Drupal\Core\Entity\EntityInterface $entity,
++  \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display
++) {
++  if (isset($build['_title'])) {
++    $field_group = $build['#group_children']['title'];
++    $build['#group_children']['_title'] = $field_group;
++    $build['#fieldgroups'][$field_group]->children[] = '_title';
++    $pos = array_search(
++      'title',
++      $build['#fieldgroups'][$field_group]->children,
++      TRUE
++    );
++    unset($build['#group_children']['title'], $build['#fieldgroups'][$field_group]->children[$pos]);
++  }
+ }
+\ No newline at end of file

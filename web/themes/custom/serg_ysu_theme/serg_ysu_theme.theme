@@ -30,3 +30,26 @@ function serg_ysu_theme_form_system_theme_settings_alter(&$form, FormStateInterf
     'bg-transparent' => t('Transparent'),
   );
 }
+
+function serg_ysu_theme_preprocess(&$variables, $hook) {
+
+  //preprocess node
+  if ($hook == 'node' && $node = \Drupal::routeMatch()->getParameter('node')) {
+
+    //Add title markup to content array -- fixes issue with title not displaying as set in manage display
+    $display = \Drupal::entityTypeManager()->getStorage('entity_view_display')->load('node.' . $node->getType() . '.' . $variables['view_mode']);
+    if ($display) {
+      $weight = 0;
+      $display_fields = $display->getComponents();
+      foreach ($display_fields as $field_name=>$attrs) {
+        if ($field_name == 'title' && isset($attrs['weight'])) {
+          $weight =  $attrs['weight'];
+        }
+      }
+      $variables['content']['title'] = [
+        '#markup' => $variables['elements']['#title'],
+        '#weight' => $weight
+      ];
+    }
+  }
+}

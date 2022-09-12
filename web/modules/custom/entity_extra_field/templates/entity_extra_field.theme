@@ -19,7 +19,8 @@ function template_preprocess_entity_extra_field(array &$variables): void {
   $element = $variables['element'];
   $extra_field = $element['#field'];
 
-  $variables['label'] = $element['label'];
+  $label = t($element['label']['#plain_text']);
+  $variables['label'] = $label;
   $variables['content'] = $element['content'];
   $variables['attributes']['class'][] = 'extra-field';
 
